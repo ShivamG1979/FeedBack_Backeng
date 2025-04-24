@@ -4,14 +4,9 @@
   "description": "MERN Stack Feedback Collector Application",
  "main": "Back_End/index.js",
   "scripts": {
-    "start": "node server/index.js",
-    "server": "nodemon server/index.js",
-    "client": "cd client && npm run dev",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "build": "cd client && npm run build",
-    "install-client": "cd client && npm install",
-    "install-server": "npm install",
-    "heroku-postbuild": "npm run install-client && npm run build"
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  
   },
   "keywords": [
     "mern",
